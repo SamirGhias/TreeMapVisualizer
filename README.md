@@ -1,6 +1,7 @@
-# TreeMapVisualizer Assignment
-In CSC148 A2 we were tasked with creating a Python program that sets up and renders an interactive visualization of a given file hierarchy/ population data Using PyGame and a recursive tree class.
-We were provided a verbal explanation of an algorithm to generate the dimensions of rectangles and given the following requirements.
+# TreeMapVisualizer
+In CSC148 we were tasked with creating a Python program that sets up and renders an interactive visualization of a given file hierarchy/ population data Using PyGame and a recursive tree class.
+
+We were provided a simple explanation of an algorithm required to generate the dimensions of rectangles and given the following requirements to fulfill.
 
 
 # Task 1: File Hierarchy Visualization
@@ -11,7 +12,7 @@ We were provided a verbal explanation of an algorithm to generate the dimensions
 
 - Implemented the following commands:
 - Pressing the Up or Down arrow keys increases/decreases the size attribute of the selected rectangle.
-- Right-clicking on the rectangle immediately deletes the node from the tree and uses an algorithm to move the deleted nodes subtrees to its parents.
+- Right-clicking on the rectangle immediately deletes the node from the tree and uses an algorithm to move the deleted nodes' subtrees to their respective parent node.
 - Upon any of the above commands, immediately re-run the initial tree generation and rectangle creation algorithms to instantly re-render the screen with newly designated sizes and ratios. The runtime of our algorithms was tested to be efficient in time and spacial complexity.
 
 # Demo Visualization of Nested Files
@@ -19,7 +20,10 @@ We were provided a verbal explanation of an algorithm to generate the dimensions
 
 
 # Task 2: Augmented Code for Viewing Country Population Data:
-I made use of the Abstract tree class in task 1 to show my ability to reuse code for a similar requirement. Instead of scanning a file folder it simply parses the regions.json file, with the parent node as the world and further divided into regions and countries with populations as the (size) attribute.  
+I made use of the Abstract tree class in task 1 to test the ability to reuse code for an identical requirement. 
+
+Instead of scanning a file folder it simply parses the regions.json and populations.json files, with the parent node as the world and further divided into regions and countries with populations as the (size) attribute. 
+The same functionality and interactivity were required with no effect on runtime. 
 
 # Demo of Population Data 
 ![](https://github.com/SamirGhias/TreeMapVisualizer/blob/main/gifs/population%20gif.gif)
