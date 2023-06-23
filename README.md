@@ -15,7 +15,7 @@ We were provided a verbal explanation of an algorithm to generate the dimensions
 - Upon any of the above commands, immediately re-run the initial tree generation and rectangle creation algorithms to instantly re-render the screen with newly designated sizes and ratios. The runtime of our algorithms was tested to be efficient in time and spacial complexity.
 
 # Demo Visualization of Nested Files
-![](https://github.com/SamirGhias/TreeMapVisualizer/blob/main/Assignments%20Folder%20demo.gif)
+![](https://github.com/SamirGhias/TreeMapVisualizer/blob/main/gifs/Assignments%20Folder%20demo.gif)
 
 
 # Task 2: Augmented Code for Viewing Country Population Data:
