@@ -5,7 +5,7 @@ We were provided a simple explanation of an algorithm required to generate the d
 
 
 # Task 1: File Hierarchy Visualization
-- scan through any given nested file folder and recursively generate an Abstract tree mirroring the structure 1 to 1, with parent, root, and children nodes as well as the size attribute. Internal folders were represented by nodes and files were represented by leaves.
+- Scan through any given nested file folder and recursively generate an Abstract tree mirroring the structure 1 to 1, with parent, root, and children nodes as well as the size attribute. Internal folders were represented by nodes and files were represented by leaves.
 - Run a secondary algorithm that processes the tree generated from the previous step and instantiates a unique rectangle object with dimensions and coordinates for each node in the tree, with the size of the rectangle representing the file size in bytes.
 - Start PyGame and render all the rectangles while listening for mouse or keyboard clicks on the PyGame window. Clicking on any rectangle must return the x and y coordinates with which we can backtrack through the tree using the algorithm and locate the exact rectangle underneath the clicked pixel.
 - Display the pathname (or country name) from the root alongside the file (or population) size.
@@ -21,14 +21,13 @@ Implemented the following commands:
 
 
 # Task 2: Augmented Code for Viewing Country Population Data:
-I made use of the Abstract tree class in task 1 to test the ability to reuse code for an identical requirement. 
+The Abstract tree class in task 1 was utilized to test the ability to reuse code for an identical requirement. 
 
-Instead of scanning a file folder it simply parses the regions.json and populations.json files, with the parent node as the world and further divided into regions and countries with populations as the (size) attribute. 
+Instead of scanning a file folder, it parses the regions.json and populations.json files, with the parent node as the world and further subtrees divided into regions and countries as leaves with populations as the size attribute. 
 The same functionality and interactivity were required with no effect on runtime. 
 
 # Demo of Population Data 
 ![](https://github.com/SamirGhias/TreeMapVisualizer/blob/main/gifs/population%20gif.gif)
 
-Assignment and source code made and provided by Diane Horton, David Liu, and Daniel Zingaro
-Department of Computer Science,
-University of Toronto
+
+This assignment and its source code were made and provided by Diane Horton, David Liu, and Daniel Zingaro from the Department of Computer Science, University of Toronto
