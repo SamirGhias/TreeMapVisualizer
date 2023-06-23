@@ -5,7 +5,7 @@ We were provided a simple explanation of an algorithm required to generate the d
 
 
 # Task 1: File Hierarchy Visualization
-- scan through any given nested file folder and recursively generate an Abstract tree mirroring the structure 1 to 1, with parent, root, and children nodes as well as the size attribute.
+- scan through any given nested file folder and recursively generate an Abstract tree mirroring the structure 1 to 1, with parent, root, and children nodes as well as the size attribute. Internal folders were represented by nodes and files were represented by leaves.
 - Run a secondary algorithm that processes the tree generated from the previous step and instantiates a unique rectangle object with dimensions and coordinates for each node in the tree, with the size of the rectangle representing the file size in bytes.
 - Start PyGame and render all the rectangles while listening for mouse or keyboard clicks on the PyGame window. Clicking on any rectangle must return the x and y coordinates with which we can backtrack through the tree using the algorithm and locate the exact rectangle underneath the clicked pixel.
 - Display the pathname (or country name) from the root alongside the file (or population) size.
