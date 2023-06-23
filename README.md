@@ -1,5 +1,5 @@
 # TreeMapVisualizer
-In CSC148 we were tasked with creating a Python program that sets up and renders an interactive visualization of a given file hierarchy/ population data Using PyGame and a recursive tree class.
+In CSC148 we were tasked with creating a Python program that sets up and renders an interactive visualization of a given file hierarchy/ population data Using PyGame and a recursive abstract tree class.
 
 We were provided a simple explanation of an algorithm required to generate the dimensions of rectangles and given the following tasks and requirements:
 
