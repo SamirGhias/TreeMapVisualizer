@@ -5,3 +5,4 @@ Python program that creates an interactive visualization of a given file hierarc
 ![](https://github.com/SamirGhias/TreeMapVisualizer/blob/main/population%20gif.gif)
 
 # Demo Visualization of Nested Files
+![](https://github.com/SamirGhias/TreeMapVisualizer/blob/main/Assignments%20Folder%20demo.gif)
