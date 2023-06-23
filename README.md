@@ -14,7 +14,8 @@ We were provided a simple explanation of an algorithm required to generate the d
 Implemented the following commands:
 - Pressing the Up or Down arrow keys increases/decreases the size attribute of the selected rectangle.
 - Right-clicking on the rectangle immediately deletes the node from the tree and uses an algorithm to move the deleted nodes' subtrees to their respective parent node.
-- Upon any of the above commands, immediately re-run the initial tree generation and rectangle creation algorithms to instantly re-render the screen with newly designated sizes and ratios. The runtime of our algorithms was tested to be efficient in time and spacial complexity.
+
+Upon any of the above commands, immediately re-run both the initial tree generation and rectangle creation algorithms to instantly re-render the screen with newly designated sizes and ratios. The runtime of our algorithms was tested to be efficient and seamless.
 
 # Demo Visualization of Nested Files
 ![](https://github.com/SamirGhias/TreeMapVisualizer/blob/main/gifs/Assignments%20Folder%20demo.gif)
