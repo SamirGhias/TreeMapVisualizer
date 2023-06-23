@@ -22,4 +22,4 @@ We were provided a verbal explanation of an algorithm to generate the dimensions
 I made use of the Abstract tree class in task 1 to show my ability to reuse code for a similar requirement. Instead of scanning a file folder it simply parses the regions.json file, with the parent node as the world and further divided into regions and countries with populations as the (size) attribute.  
 
 # Demo of Population Data 
-![](https://github.com/SamirGhias/TreeMapVisualizer/blob/main/population%20gif.gif)
+![](https://github.com/SamirGhias/TreeMapVisualizer/blob/main/gifs/population%20gif.gif)
